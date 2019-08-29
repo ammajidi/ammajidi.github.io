@@ -9,6 +9,7 @@ html, body {
 }
 
 body {
+  background: linear-gradient(#210000, #0f0000 20%);
   margin: 0px;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -252,9 +253,7 @@ a {
   color: white;
   margin-bottom: 15px;
 }
-section{
-  height: 1050px;
-}
+
 .section-padding {
   padding: 60px 60px 40px 40px;
 }
