@@ -35,13 +35,14 @@ a {
 }
 
 .resume-wrapper {
+  margin-top: -25px;
   position: relative;
   text-align: center;
   height: 100%;
 }
 
 .container {
-  min-height: 1100px;
+  min-height: 600px;
 }
 
 .profile {
@@ -173,8 +174,8 @@ a {
 .profile .contact-presentation {
   text-align: left;
   font-weight: 300;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 @media (max-width: 1200px) {
   .profile .contact-presentation {
@@ -252,7 +253,7 @@ a {
   margin-bottom: 15px;
 }
 section{
-  height: 1200px;
+  height: 1050px;
 }
 .section-padding {
   padding: 60px 60px 40px 40px;
