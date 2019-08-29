@@ -195,7 +195,7 @@ a {
   left: 0;
 }
 .profile .st0, .profile .st1 {
-  fill: #fff;
+  fill: #fff !important;
 }
 
 .experience {
@@ -251,7 +251,9 @@ a {
   color: white;
   margin-bottom: 15px;
 }
-
+section{
+  height: 1200px;
+}
 .section-padding {
   padding: 60px 60px 40px 40px;
 }

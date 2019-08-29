@@ -17,9 +17,10 @@
 
   <!-- Latest compiled JavaScript -->
   <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> -->
-  <script src="https://cdnjs.﻿cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>﻿
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TimelineMax.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/css-doodle/0.7.2/css-doodle.min.js"></script>
+  <script src="https://cdnjs.﻿cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>﻿
+
 </head>
 
 <body>
@@ -35,7 +36,7 @@
           filter:blur(1px)
           }
 
-          @size: 100% 50%;
+          @size: 100% 30%;
           position: absolute;
 
           background: @m(100, (
@@ -51,7 +52,7 @@
           will-change: transform;
           animation: f 20s linear calc(-20s / @size() * @i()) infinite;
           @keyframes f {
-          from { transform: translateY(-100%) }
+          from { transform: translateY(0%) }
           to { transform: translateY(100%) }
           }
         </css-doodle>
