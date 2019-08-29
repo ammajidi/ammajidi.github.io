@@ -23,40 +23,12 @@
 
 <body>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/css-doodle/0.7.2/css-doodle.min.js"></script>
+
 
   <div class="resume-wrapper">
     <section class="profile section-padding">
       <div class="container">
-        <css-doodle>
-          :doodle {
-          @grid: 1x3 / 100vmax;
-          position: absolute;
-          top: 0; left: 0;
-          z-index: 0;
-          filter:blur(1px)
-          }
 
-          @size: 100% 50%;
-          position: absolute;
-
-          background: @m(100, (
-          linear-gradient(transparent, @p(
-          #FFFDE1@repeat(2, @p([0-9a-f])),
-          #FB3569@repeat(2, @p([0-9a-f]))
-          ))
-          @r(0%, 100%) @r(0%, 100%) /
-          @r(1px) @r(23vmin)
-          no-repeat
-          ));
-
-          will-change: transform;
-          animation: f 20s linear calc(-20s / @size() * @i()) infinite;
-          @keyframes f {
-          from { transform: translateY(-100%) }
-          to { transform: translateY(100%) }
-          }
-        </css-doodle>
         <div class="picture-resume-wrapper">
           <div class="picture-resume">
             <span><img src="images/me.jpg" alt="" /></span>
