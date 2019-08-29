@@ -35,7 +35,7 @@ a {
 }
 
 .resume-wrapper {
-  margin-top: -25px;
+  margin-top: -25px !important;
   position: relative;
   text-align: center;
   height: 100%;
