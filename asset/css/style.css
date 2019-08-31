@@ -240,7 +240,7 @@ content:'\f1cb';
 }
 .profile .picture-resume img {
   border-radius: 50%;
-  width: 130px;
+  width: 150px;
 }
 @media (max-width: 1500px) {
   .profile .picture-resume img {
@@ -334,7 +334,7 @@ padding-left: 10px;
   left: 0;
 }
 .profile .st0, .profile .st1 {
-  fill: #fff !important;
+  fill: #000 !important;
 }
 
 .experience {
@@ -345,7 +345,7 @@ padding-left: 10px;
   color: #c2c2c2;
   font-weight: 300;
   min-height: 100%;
-  min-height: 100vh;
+
 }
 @media (max-width: 850px) {
   .experience {
