@@ -8,18 +8,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-title" content="Amiroo">
   <meta name="application-name" content="Amiroo">
-  <!-- Latest compiled and minified CSS -->
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Black+Ops+One|Covered+By+Your+Grace|Josefin+Sans|Lexend+Deca|Saira+Stencil+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="/asset/css/style.css" rel="stylesheet">
-  <!-- jQuery library -->
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script> -->
-
-  <!-- Latest compiled JavaScript -->
-  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TimelineMax.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/css-doodle/0.7.2/css-doodle.min.js"></script>
   <script src="https://cdnjs.﻿cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>﻿
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/css-doodle/0.7.2/css-doodle.min.js"></script>
+
 
 </head>
 
@@ -27,35 +22,7 @@
   <div class="resume-wrapper">
     <section class="profile section-padding">
       <div class="container">
-        <css-doodle>
-          :doodle {
-          @grid: 1x3 / 100%;
-          position: absolute;
-          top: 0; left: 0;
-          z-index: 0;
-          filter:blur(1px)
-          }
 
-          @size: 100% 50%;
-          position: absolute;
-
-          background: @m(100, (
-          linear-gradient(transparent, @p(
-          #FFFDE1@repeat(2, @p([0-9a-f])),
-          #FB3569@repeat(2, @p([0-9a-f]))
-          ))
-          @r(0%, 100%) @r(0%, 100%) /
-          @r(1px) @r(23vmin)
-          no-repeat
-          ));
-
-          will-change: transform;
-          animation: f 20s linear calc(-20s / @size() * @i()) infinite;
-          @keyframes f {
-          from { transform: translateY(0%) }
-          to { transform: translateY(100%) }
-          }
-        </css-doodle>
         <div class="picture-resume-wrapper">
           <div class="picture-resume">
             <span><img src="https://raw.githubusercontent.com/ammajidi/ammajidi.github.io/master/asset/images/me.jpg" alt="" /></span>
@@ -93,39 +60,50 @@
         <div class="name-wrapper">
           <h1>AMIR <br />MAJIDI</h1><!-- YOUR NAME AND LAST NAME  -->
         </div>
-        <div class="clearfix"></div>
-        <div class="contact-info clearfix">
-          <ul class="list-titles">
-            <li>Call</li>
-            <li>Mail</li>
-
-            <li>Home</li>
-          </ul>
-          <ul class="list-content ">
-            <li>+989022022727</li> <!-- YOUR PHONE NUMBER  -->
-            <li>ammajidi98@gmail.com</li> <!-- YOUR EMAIL -->
-
-            <li>Shiraz, IR</li> <!-- YOUR STATE AND COUNTRY  -->
-          </ul>
-        </div>
         <div class="contact-presentation">
           <!-- YOUR PRESENTATION RESUME  -->
           <p><span class="bold">Curious ,hardworker and creative
             </span><br> Thirsty of New Experiences and Tasting Different Areas of 0/1 World. </p>
         </div>
-        <div class="contact-social clearfix">
-          <ul class="list-titles">
-            <li>Twitter</li>
-            <li>Dribbble</li>
-            <li>Codepen</li>
-          </ul>
-          <ul class="list-content">
-            <!-- REMEMBER TO PUT THE URL ON THE HREF TAG  -->
-            <li><a href="">@ammajidi</a></li> <!-- YOUR TWITTER USER  -->
-            <li><a href="">ammajidi</a></li> <!-- YOUR DRIBBBLE USER  -->
-            <li><a href="">ammajidi</a></li> <!-- YOUR BEHANCE USER  -->
-          </ul>
+        <div class="social">
+          <a href="mailto:ammajidi98@gmail.com" target="_blank"><span>Email</span></a>
+          <a href="" target="_blank"><span>Twitter</span></a>
+          <a href="https://www.linkedin.com/in/ammajidi/" target="_blank"><span>Linked In</span></a>
+          <a href="https://github.com/ammajidi" target="_blank"><span>Github</span></a>
+          <a href="https://dribbble.com/ammajidi" target="_blank"><span>Dribbble</span></a>
+          <a href="https://codepen.io/ammajidi" target="_blank"><span>CodePen</span></a>
         </div>
+        <div class="clearfix"></div>
+
+        <css-doodle>
+          :doodle {
+          @grid: 1x3 / 100%;
+          position: absolute;
+          top: 0; left: 0;
+          z-index: 0;
+          filter:blur(1px)
+          }
+
+          @size: 100% 70%;
+          position: absolute;
+
+          background: @m(100, (
+          linear-gradient(transparent, @p(
+          #FFFDE1@repeat(2, @p([0-9a-f])),
+          #FB3569@repeat(2, @p([0-9a-f]))
+          ))
+          @r(0%, 100%) @r(0%, 100%) /
+          @r(1px) @r(23vmin)
+          no-repeat
+          ));
+
+          will-change: transform;
+          animation: f 20s linear calc(-20s / @size() * @i()) infinite;
+          @keyframes f {
+          from { transform: translateY(0%) }
+          to { transform: translateY(100%) }
+          }
+        </css-doodle>
       </div>
     </section>
 
@@ -142,7 +120,7 @@
           <div class="job-wrapper clearfix">
             <div class="experience-title">UI Developer | UX Designer </div> <!-- JOB TITLE  -->
             <div class="company-description">
-              <p>DasbeCode As a Product of CodiacTeam Is An Website For Programmers To Learn And Code Using It's Online Coding Platform, <a href="https://web.dasbecode.com/" target="_blank">Web DasbeCode</a> </p> <!-- JOB DESCRIPTION  -->
+              <p>DasbeCode As a Product of CodiacTeam Is An Website For Programmers To Learn And Code Using It's Online Coding Platform, <a href="https://web.dasbecode.com/" target="_blank">Web DasbeCode</a>. </p> <!-- JOB DESCRIPTION  -->
             </div>
           </div>
 
