@@ -16,6 +16,11 @@ body {
 }
 
 a {
+  color: #c66d7c;
+  text-decoration: none;
+  transition:all .5s ease-in-out;
+}
+a:hover{
   color: #ce0000;
   text-decoration: none;
 }
