@@ -355,7 +355,6 @@ padding-left: 10px;
 .experience h3.experience-title {
   color: #ce0000;
   text-align: left;
-  text-transform: uppercase;
   font-size: 1.2em;
   margin-bottom: 20px;
   font-weight: 400;
@@ -429,7 +428,6 @@ padding-left: 10px;
 h3.section-title {
   color: #ce0000;
   text-align: left;
-  text-transform: uppercase;
   font-size: 1.2em;
   margin-bottom: 20px;
   font-weight: 400;
@@ -437,7 +435,7 @@ h3.section-title {
 .skill-col h4.section-title {
   color: #c2c2c2;
   text-align: center;
-  text-transform: uppercase;
+
   font-size: 1.2em;
   margin-bottom: 20px;
   font-weight: 400;
