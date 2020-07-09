@@ -20,11 +20,11 @@ body {
 a {
   color: #c66d7c;
   text-decoration: none;
-  transition:all .5s ease-in-out;
+  transition:all .3s ease-in-out;
 }
 a:hover{
   color: #ce0000;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .clearfix::after, .clearfix::before {
@@ -166,7 +166,13 @@ content:'\f113';
 content:'\f17d';
 }
 .social a:nth-of-type(6):before {
-content:'\f1cb';
+content:'\f1bc';
+}
+.social a:nth-of-type(7):before {
+  content:'\f1be';
+}
+.social a:nth-of-type(7):before {
+  content:'\f1b6';
 }
 .profile {
   background: linear-gradient(#210000, #0f0000);
