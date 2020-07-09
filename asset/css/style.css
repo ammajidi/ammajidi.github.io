@@ -443,8 +443,7 @@ h3.section-title {
 }
 .skill-col h4.section-title {
   color: #c2c2c2;
-  text-align: center;
-
+  text-align: left;
   font-size: 1.2em;
   margin-bottom: 20px;
   font-weight: 400;
