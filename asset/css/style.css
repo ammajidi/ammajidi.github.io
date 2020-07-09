@@ -165,7 +165,7 @@ content:'\f113';
 .social a:nth-of-type(5):before {
 content:'\f17d';
 }
-/* .social a:nth-of-type(6):before {
+.social a:nth-of-type(6):before {
 content:'\f1bc';
 }
 .social a:nth-of-type(7):before {
@@ -176,7 +176,7 @@ content:'\f1bc';
 }
 .social a:nth-of-type(9):before {
   content:'\f02d';
-} */
+}
 .profile {
   background: linear-gradient(#210000, #0f0000);
   width: 40%;
